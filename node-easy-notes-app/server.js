@@ -1,5 +1,5 @@
 const express = require('express')
-const bodyParser = require ('body-parser')
+const bodyParser = require('body-parser')
 
 const app = express()
 
@@ -25,6 +25,6 @@ mongoose.connect(dbConfig.url, {
 const home = res => res.status(200).json('Welcome to the nowhere')
 app.get('/',(req,res) => home (res));
 
-require('./app/routes/note.routes.js')(app);
+require('./routes/note.routes.js')(app);
 
-app.listen(4000, () => console.log('Listening on port: 3003'))
+app.listen(3003, () => console.log('Listening on port: 3003'))
