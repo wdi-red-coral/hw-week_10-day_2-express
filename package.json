@@ -1,0 +1,25 @@
+{
+  "name": "hw-week_10-day_2-express",
+  "version": "1.0.0",
+  "description": "Build a \"Notes\" API with Node, Express, Mongodb, and Mongoose!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmanyAts/hw-week_10-day_2-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmanyAts/hw-week_10-day_2-express/issues"
+  },
+  "homepage": "https://github.com/AmanyAts/hw-week_10-day_2-express#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "core-util-is": "^1.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.4"
+  }
+}
